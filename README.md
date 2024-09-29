@@ -1,1 +1,1 @@
-# expense_tracker
+# Expense Watcher - Built with Django
