@@ -20,7 +20,7 @@ The Expense Watcher App is a simple, user-friendly application built with Django
 ## Installation
 
 - **Clone the repo**
-git clone https://github.com/mahendraydv/expense-tracker.git
+[git clone https://github.com/mahendraydv/expense-tracker.git](https://github.com/Mahendraydv/expense_tracker.git)
 
 - **Change to the project directory**
 cd expense-tracker
