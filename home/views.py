@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect
-from .models import Expense, Profile
+from .models import *
 
 def home(request):
     profile = Profile.objects.filter(user = request.user).first()
@@ -23,3 +23,7 @@ def home(request):
 
     context = {'profile' : profile , 'expenses' : expenses}
     return render(request , 'home.html' , context)
+
+
+
+   
